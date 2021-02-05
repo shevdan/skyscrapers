@@ -5,6 +5,28 @@ combination on a game board.
 https://github.com/shevdan/skyscrapers
 '''
 
+#example_! is an example of a bord that does not fulfill requirements
+EXAMPLE_1 = [
+    '***21**',
+    '4?????*',
+    '4?????*',
+    '*?????5',
+    '*?????*',
+    '*?????*',
+    '*2*1***'
+]
+
+#example_2 is an example of a board that fulfills all requirements
+EXAMPLE_2 = [
+    '***21**',
+    '412453*',
+    '423145*',
+    '*543215',
+    '*35214*',
+    '*41532*',
+    '*2*1***'
+]
+
 def read_input(path: str) -> list:
     """
     Read game board file from path.
