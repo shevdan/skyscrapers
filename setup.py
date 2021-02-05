@@ -11,7 +11,7 @@ setuptools.setup(
     description="A module for checking the board for winning situation",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=" ",
+    url="https://github.com/shevdan/skyscrapers",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
