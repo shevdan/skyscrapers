@@ -162,9 +162,8 @@ def check_columns(board: list) -> bool:
     >>> check_columns(['***21**', '412553*', '423145*', '*543215', '*35214*', '*41532*', '*2*1***'])
     False
     """
-    for elem in board[0]:
+    for idx, elem in enumerate(board[0]):
         if elem.isdigit():
-            idx = board[0].index(elem)
             col = ''
             for row in board:
                 col = col + row[idx]
